@@ -1,0 +1,5 @@
+export const setName = Symbol('setName')
+export const Pending = Symbol('pending')
+export const Success = Symbol('success')
+export const Fail = Symbol('fail')
+export const GET_USER_INFO = Symbol('get_user_info')

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es5",
+    "module": "esNext",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "jsx": "react",
+    "noImplicitThis": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "paths": {
+      "components/*": ["src/components/*"]
+    }
+  }
+}
